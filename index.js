@@ -13,8 +13,7 @@ btnProducto1.addEventListener('click', (e)=> {
     alert("Paracetamol-Capsule-500mg añadido al carrito de ventas");
     numProductos = numProductos + 1;
     etiquetaNumProducto.innerHTML = numProductos;
-    btnProducto1 = btnProducto1 + 1;
-
+    modalBody.innerHTML += '<div class="lista-carrito"> <h2>Paracetamol-Capsule-500mg</h2> <i>$ 25.000</i> </div>'
 });
 
 btnProducto2.addEventListener('click', (e)=> {
@@ -22,6 +21,7 @@ btnProducto2.addEventListener('click', (e)=> {
     alert("Dolex Forte añadido al carrito de ventas");
     numProductos = numProductos + 1;
     etiquetaNumProducto.innerHTML = numProductos;
+    modalBody.innerHTML += '<div class="lista-carrito"> <h2>Dolex Forte</h2> <i>$ 10.000</i> </div>'
 });
 
 
