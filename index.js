@@ -1,5 +1,6 @@
 var numProductos = 0;
 const btnProducto1 = document.getElementById('anadirproducto1');
+const btnProducto2 = document.getElementById('anadirproducto2');
 const etiquetaNumProducto = document.getElementById('numCarrito');
 
 btnProducto1.addEventListener('click', (e)=> {
