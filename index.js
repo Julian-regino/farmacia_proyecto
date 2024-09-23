@@ -23,8 +23,14 @@ btnProducto2.addEventListener('click', (e)=> {
 // Ver carrito de compras
 const openModalCarrito = document.getElementById('openModalCarrito');
 const modalCarrtito = document.querySelector('.modal-carrito');
+const btnCerrarModalCarro = document.getElementById('btnCerrarModalCarro');
 
 openModalCarrito.addEventListener('click', (e)=> {
     e.preventDefault();
     modalCarrtito.classList.add('modal-show')
+});
+
+btnCerrarModalCarro.addEventListener('click', (e)=> {
+    e.preventDefault();
+    modalCarrtito.classList.remove('modal-show');
 });
