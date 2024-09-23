@@ -1,3 +1,5 @@
+// Actualizar carrito de compras
+
 var numProductos = 0;
 const btnProducto1 = document.getElementById('anadirproducto1');
 const btnProducto2 = document.getElementById('anadirproducto2');
@@ -16,9 +18,3 @@ btnProducto2.addEventListener('click', (e)=> {
     numProductos = numProductos + 1;
     etiquetaNumProducto.innerHTML = numProductos;
 });
-
-function actualizarNumProductos() {
-    
-}
-
-setInterval(actualizarNumProductos, 500);
