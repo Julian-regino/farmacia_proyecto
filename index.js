@@ -18,3 +18,13 @@ btnProducto2.addEventListener('click', (e)=> {
     numProductos = numProductos + 1;
     etiquetaNumProducto.innerHTML = numProductos;
 });
+
+
+// Ver carrito de compras
+const openModalCarrito = document.getElementById('openModalCarrito');
+const modalCarrtito = document.querySelector('.modal-carrito');
+
+openModalCarrito.addEventListener('click', (e)=> {
+    e.preventDefault();
+    modalCarrtito.classList.add('modal-show')
+});
