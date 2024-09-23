@@ -15,7 +15,7 @@ btnProducto2.addEventListener('click', (e)=> {
     alert("Dolex Forte añadido al carrito de ventas");
     numProductos = numProductos + 1;
     etiquetaNumProducto.innerHTML = numProductos;
-}); 
+});
 
 function actualizarNumProductos() {
     
