@@ -15,7 +15,10 @@
             <a href="#">Catalago</a>
             <a href="#">Recetas medicas</a>
             <a href="#">cerrar sessión</a>
-            <a href="#"><img src="img/carrito.svg" alt="carritodecompras"></a>
+            <div id="openModalCarrito">
+                <a href="#"><img src="img/carrito.svg" alt="carritodecompras"></a>
+                <b><i id="numCarrito">0</i></b>
+            </div>
         </nav>
     </header>
     <main>
@@ -27,6 +30,19 @@
             <p>Dolex Forte</p> 
         <button id="anadirproducto2">Añadir a carrito</button>
     </div>
+    <section class="modal-carrito ">
+        <div class="modal-container-carrito">
+            <div class="modal-header">
+                <h2>Carrito de compras</h2>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            <div class="modal-footer">
+                <button id="btnCerrarModalCarro">Cerrar</button>
+            </div>
+        </div>
+    </section>
     </main>
     <footer>
         <p>© Proyectojulian - Todos los derechos reservados</p>
