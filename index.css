@@ -98,3 +98,14 @@ footer {
     margin: auto;
     border-radius: 10px;
 }
+
+.lista-carrito {
+    width: 90%;
+    height: 35px;
+    border: 1px solid #3a3a3a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
